@@ -7,10 +7,26 @@ body
         margin: 0;
         padding: 0;
     }
+    #cabecera
+    {
+      background-color: darkgreen;  
+      box-shadow: 0px 2px 20px 0px rgb(51, 210, 30);
+      color: antiquewhite;
+      font-size: 0.8cm;
+      font-weight: bold;
+      margin: 0;
+      padding: 0.5cm;
+    }
+    #cabecera #tagline
+    {
+        padding: 0 0 0 1cm;
+        font-weight: normal;
+        font-size: 0.5cm;
+    }
     #container
     {
       width: 70%;
-      padding: lem;
+      padding: 1cm;
       text-align: left;
       border: 1px solid cornflowerblue;
       margin: 0 auto;
